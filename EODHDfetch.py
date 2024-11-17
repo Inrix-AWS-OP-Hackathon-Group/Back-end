@@ -1,8 +1,7 @@
 import requests
 import json
 
-API_KEY = "62a4b058a96d71.91558808"
-API_URL = f"https://eodhd.com/api/news?api_token={API_KEY}&offset=0&limit=10&fmt=json"
+
 
 
 with open("exchangeSymbols.json", 'r') as file:
